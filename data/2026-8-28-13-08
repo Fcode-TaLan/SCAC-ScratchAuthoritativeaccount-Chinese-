@@ -1,1 +1,102 @@
+/*
+ * SCAC_DATA 结构说明：
+ *
+ * date  - 整个文档的更新日期（格式：年-月-日）
+ * time  - 整个文档的更新时间（格式：时:分）
+ * data  - 权威账号数据数组，每个元素代表一个账号，结构如下：
+ *
+ *   name          - 账号名称
+ *   introduction  - 个人介绍
+ *   level         - 等级（1~5，数字越大等级越高）
+ *   accounts      - 相关账号数组，每个元素包含：
+ *                     name     - 账号昵称
+ *                     platform - 账号所在平台
+ *                     id       - 账号ID
+ *   best_works    - 优秀作品数组，每个元素包含：
+ *                     title        - 作品名称
+ *                     description  - 作品介绍（可选，没有可留空字符串）
+ *                     url          - 作品链接（可选，没有可留空字符串）
+ *   best_videos   - 优秀视频数组（可选，可以为空数组），每个元素包含：
+ *                     title        - 视频标题
+ *                     description  - 视频介绍（可选，没有可留空字符串）
+ *                     url          - 视频链接
+ */
 
+var SCAC_DATA = {
+  "date": "2026-8-28",
+  "time": "10:00",
+  "data": [
+    {
+      "name": "XzwPlayer013",
+      "introduction": "我的QQ号是1245185437",
+      "level": 3,
+      "accounts": [
+        {"name": "ATRI", "platform": "QQ", "id": "1245185437"},
+        {"name": "XzwPlayer013", "platform": "B站", "id": "3546566931515921"},
+        {"name": "XzwPlayer", "platform": "B站", "id": "3546619869923869"}
+      ],
+      "best_works": [
+        {
+          "title": "OS/2 最棒的伪OS",
+          "description": "",
+          "url": ""
+        },
+        {
+          "title": "OS/3 Scratch的一次伟大扁平化革命",
+          "description": "",
+          "url": "https://www.bilibili.com/video/BV1S9N36YEQK"
+        }
+      ],
+      "best_videos": [
+        {
+          "title": "OS/3 Scratch的一次伟大扁平化革命",
+          "description": "",
+          "url": "https://www.bilibili.com/video/BV1S9N36YEQK"
+        },
+        {
+          "title": "OS/2 最棒的伪OS 真正的实时渲染模糊与Aero反射 无与伦比天下第一的伪OS 无比华丽 美观程度吊打任何其他伪OS 获取请加QQ878991167",
+          "description": "",
+          "url": "https://www.bilibili.com/video/BV1HQKD6wEsz"
+        }
+      ]
+    },
+    {
+      "name": "LX_gssy",
+      "introduction": "视频里的都是我自己的服务器，模拟正常服务器来测试反作弊并改进反作弊",
+      "level": 2,
+      "accounts": [
+        {"name": "LX_gssy", "platform": "B站", "id": "1948173011"}
+      ],
+      "best_works": [
+        {
+          "title": "我在GitHub找到了开源的zxLeafOS2.0",
+          "description": "",
+          "url": "https://www.bilibili.com/video/BV1X6hw6kEL4"
+        }
+      ],
+      "best_videos": [
+        {
+          "title": "我在GitHub找到了开源的zxLeafOS2.0",
+          "description": "",
+          "url": "https://www.bilibili.com/video/BV1X6hw6kEL4"
+        }
+      ]
+    },
+    {
+      "name": "周志航offline",
+      "introduction": "所有资源均为开源，已经过UP同意",
+      "level": 1,
+      "accounts": [
+        {"name": "周志航offline", "platform": "B站", "id": "3546720224938218"}
+      ],
+      "best_works": [
+        {
+          "title": "zxLeafOS (仿制版)",
+          "description": "",
+          "url": ""
+        }
+      ],
+      "best_videos": []
+    }
+  ]
+};
