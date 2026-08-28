@@ -24,79 +24,53 @@
 
 var SCAC_DATA = {
   "date": "2026-8-28",
-  "time": "10:00",
+  "time": "15:10",
   "data": [
     {
-      "name": "XzwPlayer013",
-      "introduction": "我的QQ号是1245185437",
-      "level": 3,
-      "accounts": [
-        {"name": "ATRI", "platform": "QQ", "id": "1245185437"},
-        {"name": "XzwPlayer013", "platform": "B站", "id": "3546566931515921"},
-        {"name": "XzwPlayer", "platform": "B站", "id": "3546619869923869"}
-      ],
-      "best_works": [
-        {
-          "title": "OS/2 最棒的伪OS",
-          "description": "",
-          "url": ""
-        },
-        {
-          "title": "OS/3 Scratch的一次伟大扁平化革命",
-          "description": "",
-          "url": "https://www.bilibili.com/video/BV1S9N36YEQK"
-        }
-      ],
-      "best_videos": [
-        {
-          "title": "OS/3 Scratch的一次伟大扁平化革命",
-          "description": "",
-          "url": "https://www.bilibili.com/video/BV1S9N36YEQK"
-        },
-        {
-          "title": "OS/2 最棒的伪OS 真正的实时渲染模糊与Aero反射 无与伦比天下第一的伪OS 无比华丽 美观程度吊打任何其他伪OS 获取请加QQ878991167",
-          "description": "",
-          "url": "https://www.bilibili.com/video/BV1HQKD6wEsz"
-        }
-      ]
-    },
-    {
-      "name": "LX_gssy",
-      "introduction": "视频里的都是我自己的服务器，模拟正常服务器来测试反作弊并改进反作弊",
+      "name": "F_code",
+      "isd": 1,
+      "introduction": "网站管理员\n做过一些小作品\n发过一些教程",
       "level": 2,
       "accounts": [
-        {"name": "LX_gssy", "platform": "B站", "id": "1948173011"}
+        {"name": "F_code", "platform": "QQ", "id": "3821743563"},
+        {"name": "F_code", "platform": "B站", "id": "3546722598914878"},
+        {"name": "F_code", "platform": "创客次元", "id": "cms6ytua3000712idndua7rvs"}
       ],
       "best_works": [
         {
-          "title": "我在GitHub找到了开源的zxLeafOS2.0",
-          "description": "",
-          "url": "https://www.bilibili.com/video/BV1X6hw6kEL4"
+          "title": "ApexOS",
+          "description": "一个turbowarp制作的伪系统",
+          "url": "https://www.bilibili.com/video/BV1fUD7BgEAg/"
         }
       ],
       "best_videos": [
         {
-          "title": "我在GitHub找到了开源的zxLeafOS2.0",
-          "description": "",
-          "url": "https://www.bilibili.com/video/BV1X6hw6kEL4"
+          "title": "Scratch实现四舍五入",
+          "description": "Scratch实现四舍五入Pro！精准保留指定小数位",
+          "url": "https://www.bilibili.com/video/BV1CVEh66Ew3"
+        },
+        {
+          "title": "我的原创作品竟然被照搬了！",
+          "description": "我在2026-2-12日傍晚，被朋友通知出现了一个和我的作品非常相似的作品，就有个这一幕。\n这个是我原创的系统，名叫HDAFS OS，我拥有所有的开发文件、日志、视频记录。",
+          "url": "https://www.bilibili.com/video/BV1v8cGz5EKW"
         }
       ]
     },
     {
-      "name": "周志航offline",
-      "introduction": "所有资源均为开源，已经过UP同意",
-      "level": 1,
+      "name": "一只编澄",
+      "introduction": "一个资深的scratch圈up主。\n发布过很多有用的教学视频。\n也发布过很多自己的作品。\n多次参加共创世界举办的Game Jam。",
+      "level": 3,
       "accounts": [
-        {"name": "周志航offline", "platform": "B站", "id": "3546720224938218"}
+        {"name": "一只编澄", "platform": "B站", "id": "1596283014"},
+        {"name": "小澄", "platform": "QQ", "id": "282296695"},
+        {"name": "一只编澄", "platform": "共创世界", "id": "243826735"}
       ],
       "best_works": [
-        {
-          "title": "zxLeafOS (仿制版)",
-          "description": "",
-          "url": ""
-        }
+
       ],
-      "best_videos": []
+      "best_videos": [
+
+      ]
     }
   ]
 };
