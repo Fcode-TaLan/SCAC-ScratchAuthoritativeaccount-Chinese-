@@ -28,13 +28,15 @@ var SCAC_DATA = {
   "data": [
     {
       "name": "F_code",
+      "do": ["伪系统","视频"],
       "isd": 1,
       "introduction": "网站管理员\n做过一些小作品\n发过一些教程",
       "level": 2,
       "accounts": [
         {"name": "F_code", "platform": "QQ", "id": "3821743563"},
         {"name": "F_code", "platform": "B站", "id": "3546722598914878"},
-        {"name": "F_code", "platform": "创客次元", "id": "cms6ytua3000712idndua7rvs"}
+        {"name": "F_code", "platform": "创客次元", "id": "cms6ytua3000712idndua7rvs"},
+        {"name": "F_code", "platform": "邮箱", "id": "3821743563@qq.com"}
       ],
       "best_works": [
         {
@@ -66,10 +68,28 @@ var SCAC_DATA = {
         {"name": "一只编澄", "platform": "共创世界", "id": "243826735"}
       ],
       "best_works": [
-
+        {
+          "title": "液态玻璃",
+          "description": "一个在turbowarp里面做出来，支持使用scratch加载作品的液态玻璃",
+          "url": "https://www.ccw.site/detail/699ee12cf7261b2bdfc7b8bf?inviteCode=N3z6P0GNyEctqdrY"
+        },
+        {
+          "title": "熄灯游戏",
+          "description": "一款益智的益智游戏",
+          "url": "https://ccw.site/s/31Dkr8"
+        }
       ],
       "best_videos": [
-
+        {
+          "title": "如何神金地关一盏灯？Scratch：神经。",
+          "description": "熄灯游戏",
+          "url": "https://www.bilibili.com/video/BV1dZByYxEiN"
+        },
+        {
+          "title": "液态玻璃…on 原版Scratch？",
+          "description": "🍊链接：\n共创世界：https://www.ccw.site/detail/699ee12cf7261b2bdfc7b8bf?inviteCode=N3z6P0GNyEctqdrY\n\n给个三连吧QWQ",
+          "url": "https://www.bilibili.com/video/BV1EXftBoEJY"
+        }
       ]
     }
   ]
