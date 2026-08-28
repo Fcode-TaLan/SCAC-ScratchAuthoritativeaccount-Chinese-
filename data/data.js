@@ -28,7 +28,7 @@ var SCAC_DATA = {
   "data": [
     {
       "name": "F_code",
-      "do": ["伪系统","视频"],
+      "do": ["伪系统","视频教程"],
       "isd": 1,
       "introduction": "网站管理员\n做过一些小作品\n发过一些教程",
       "level": 2,
@@ -60,6 +60,7 @@ var SCAC_DATA = {
     },
     {
       "name": "一只编澄",
+      "do": ["视频教程"],
       "introduction": "一个资深的scratch圈up主。\n发布过很多有用的教学视频。\n也发布过很多自己的作品。\n多次参加共创世界举办的Game Jam。",
       "level": 3,
       "accounts": [
